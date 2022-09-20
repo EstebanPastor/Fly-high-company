@@ -65,18 +65,18 @@ const Nav = styled.nav`
     }
   }
   button {
-    padding: 1.6rem 1.9rem;
+    padding: 1.7rem 2.5rem;
     cursor: pointer;
     border-radius: 1rem;
     border: none;
     color: white;
-    background-color: #40c7e2;
+    background-color: #000000;
     text-transform: uppercase;
-    font-size: 1.1 rem;
+    font-size: 1.3 rem;
     letter-spacing: 0.1rem;
     transition: 0.3s ease-in-out;
     &:hover {
-      background-color: #2263b9;
+      background-color: #759bcc;
     }
   }
   img {

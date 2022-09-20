@@ -28,7 +28,7 @@ const Hero = () => {
             <label htmlFor="">Check-out</label>
             <input type="date"/>
           </div>
-          <button>¡Explore now!</button>
+          <button>Explore now</button>
         </div>
       </div>
 
@@ -77,10 +77,11 @@ const Section = styled.section`
       }
     }
     .search {
+     
       display: flex;
       background-color: #ffffffce;
-      padding: 0.5rem;
-      border-radius: 0.5rem;
+      padding: 0.6rem;
+      border-radius: 0.6rem;
       .container {
         display: flex;
         align-items: center;
@@ -88,7 +89,7 @@ const Section = styled.section`
         flex-direction: column;
         padding: 0 1.5rem;
         label {
-          font-size: 1.1rem;
+          font-size: 1.2rem;
           color: #03045e;
         }
         input {
@@ -117,9 +118,9 @@ const Section = styled.section`
         background-color: #000000;
         font-size: 1.1rem;
         text-transform: uppercase;
-        transition: 0.3s ease-in-out;
+        transition: 0.4s ease-in-out;
         &:hover {
-          background-color: #2263b9;
+          background-color: #759bcc;
         }
       }
     }
