@@ -18,3 +18,12 @@ body {
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
   }
+
+  ::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: #14213d;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #759bcc;
+  }
