@@ -21,13 +21,10 @@ const ToTop = styled.div`
   position: fixed;
   cursor: pointer;
   z-index: 10;
-  bottom: 1.3rem;
-  right: 1.9rem;
+  bottom: 2rem;
+  right: 2rem;
   img {
-    height: 2.8rem;
-    border-radius: 1.4rem;
+    height: 3.7rem;
+    border-radius: 1.6rem;
   }
-  border-radius: 2rem;
-  background-color: #000000;
-  padding: 1rem;
 `;
