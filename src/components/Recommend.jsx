@@ -14,44 +14,44 @@ export default function Recommend() {
     {
       image: Destination1,
       title: "Singapore",
-      subTitle: "Singapore is an island and city state, the smallest country, by surface area, in Southeast Asia.",
+      subTitle:
+        "General information. Singapore (the Republic of Singapore) is an island and city state, the smallest country, by surface area, in Southeast Asia. It is a member of the Commonwealth of Nations. Singapore comprises a main island.",
       cost: "38,800",
-      duration: "Approx 2 night trip",
     },
     {
       image: Destination2,
       title: "Thailand",
-      subTitle: "Thailand is the only Southeast Asian country never to have been colonized by a European power. It is known for its beautiful nature, delicious mangoes and strict rules about conversations on its monarchy.",
+      subTitle:
+        "Thailand officially the Kingdom of Thailand, is a country in Southeast Asia, located at the centre of Indochinese Peninsula, spanning 513,120 square kilometres (198,120 sq mi), with a population of almost 70 million.The country is bordered to the north by Myanmar and Laos, to the east by Laos and Cambodia, to the south by the Gulf of Thailand and Malaysia.",
       cost: "54,200",
-      duration: "Approx 2 night trip",
     },
     {
       image: Destination3,
       title: "Paris",
-      subTitle: "Paris is the capital of France and, along with London, is the most important financial city in Europe.",
+      subTitle:
+        "Paris is the capital of France and one of the great European cities. It is for many the most romantic and popular tourist destination on the planet. ... Paris is also known to all as the City of Light, as the French capital was the first to endow its streets with electric light.",
       cost: "45,500",
-      duration: "Approx 2 night trip",
     },
     {
       image: Destination4,
       title: "New Zealand",
-      subTitle: "New Zealand is an island country, with two main islands (the North Island and the South Island), in the south-east Pacific.",
+      subTitle:
+        "New Zealand is an island country, with two main islands (the North Island and the South Island), in the south-east Pacific.",
       cost: "24,100",
-      duration: "Approx 1 night trip",
     },
     {
       image: Destination5,
       title: "Bora Bora",
-      subTitle: "Bora Bora is a small South Pacific island northwest of Tahiti. Surrounded by sand-fringed motus and a turquoise lagoon protected by a coral reef",
+      subTitle:
+        "Bora Bora is a small South Pacific island northwest of Tahiti. Surrounded by sand-fringed motus and a turquoise lagoon protected by a coral reef",
       cost: "95,400",
-      duration: "Approx 2 night 2 day trip",
     },
     {
       image: Destination6,
       title: "London",
-      subTitle: "London is the capital city of the United Kingdom. It is the U.K.'s largest metropolis and its economic, transportation, and cultural centre.",
+      subTitle:
+        "London is the capital city of the United Kingdom. It is the U.K.'s largest metropolis and its economic, transportation, and cultural centre.",
       cost: "38,800",
-      duration: "Approx 3 night 2 day trip",
     },
   ];
 
@@ -101,7 +101,7 @@ const Section = styled.section`
   .destinations {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 2.9rem;
     padding: 0 3rem;
     .destination {
       padding: 1rem;
@@ -116,7 +116,7 @@ const Section = styled.section`
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       }
       img {
-        width: 100%;
+        width: 95%;
       }
       .info {
         display: flex;
@@ -126,9 +126,9 @@ const Section = styled.section`
           gap: 0.3rem;
           img {
             border-radius: 1rem;
-            background-color: #4d2ddb84;
-            width: 2rem;
-            /* padding: 1rem; */
+            background-color: #11030384;
+            width: 2.2rem;
+          
             padding: 0.3rem 0.4rem;
           }
         }
