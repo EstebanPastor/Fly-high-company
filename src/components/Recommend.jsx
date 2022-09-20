@@ -57,6 +57,7 @@ export default function Recommend() {
 
   return (
     <Section id="recommend">
+      <h1>recommended tourist places</h1>
       <div className="destinations">
         {data.map((destination) => {
           return (
@@ -81,6 +82,13 @@ export default function Recommend() {
 }
 
 const Section = styled.section`
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 50px;
+  }
   padding: 2rem;
   border-color: #759bcc;
 
@@ -128,7 +136,7 @@ const Section = styled.section`
             border-radius: 1rem;
             background-color: #11030384;
             width: 2.2rem;
-          
+
             padding: 0.3rem 0.4rem;
           }
         }

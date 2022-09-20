@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
-import homeImage from "../assets/hero.png"
-
+import homeImage from "../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -12,13 +11,21 @@ const Hero = () => {
       <div className="content">
         <div className="title">
           <h1>FLY HIGH COMPANY</h1>
-          <p>We are a company created in Argentina with the purpose of selling trips abroad and that our users can exchange trips with each other and share the experience of traveling.</p>
-          <p>Somos una empresa creada en Argentina con el propósito de vender viajes al exterior y que nuestros usuarios puedan intercambiar viajes entre ellos y compartir la experiencia de viajar.</p>
+          <p>
+            We are a company created in Argentina with the purpose of selling
+            trips abroad and that our users can exchange trips with each other
+            and share the experience of traveling.
+          </p>
+          <p>
+            Somos una empresa creada en Argentina con el propósito de vender
+            viajes al exterior y que nuestros usuarios puedan intercambiar
+            viajes entre ellos y compartir la experiencia de viajar.
+          </p>
         </div>
         <div className="search">
           <div className="container">
             <label htmlFor="">Where do you want to go?</label>
-            <input type="text" placeholder="Search your location"/>
+            <input type="text" placeholder="Search your location" />
           </div>
           <div className="container">
             <label htmlFor="">Check-in</label>
@@ -26,17 +33,16 @@ const Hero = () => {
           </div>
           <div className="container">
             <label htmlFor="">Check-out</label>
-            <input type="date"/>
+            <input type="date" />
           </div>
           <button>Explore now</button>
         </div>
       </div>
-
     </Section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
 
 const Section = styled.section`
   position: relative;
@@ -77,7 +83,6 @@ const Section = styled.section`
       }
     }
     .search {
-     
       display: flex;
       background-color: #ffffffce;
       padding: 0.6rem;
@@ -124,4 +129,5 @@ const Section = styled.section`
         }
       }
     }
-  }`;
+  }
+`;

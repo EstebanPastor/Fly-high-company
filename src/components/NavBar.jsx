@@ -7,7 +7,7 @@ const NavBar = () => {
     <Nav>
       <div className="brand">
         <div className="container">
-          <img src={logo} alt="logo-fly-high" /> 
+          <img src={logo} alt="logo-fly-high" />
         </div>
         <div className="toggle"></div>
       </div>
@@ -18,11 +18,11 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <a href="#services">Services</a>
+          <a href="#services">Services and payment methods</a>
         </li>
         <li>
           {" "}
-          <a href="#recommend">Recommend</a>
+          <a href="#recommend">Recommended section</a>
         </li>
       </ul>
       <button>Login</button>
