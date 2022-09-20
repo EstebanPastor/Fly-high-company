@@ -33,7 +33,7 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+
 
 const FooterContainer = styled.footer`
   display: flex;
@@ -64,3 +64,5 @@ const FooterContainer = styled.footer`
     }
   }
 `;
+
+export default Footer;

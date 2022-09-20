@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import topLogo from "../assets/toTop.png";
-export default function ScrollToTop() {
+
+const ScrollToTop = () => {
   const [scrollState, setScrollState] = useState(false);
   const toTop = () => {
     window.scrollTo({ top: 0 });
@@ -28,3 +29,5 @@ const ToTop = styled.div`
     border-radius: 1.6rem;
   }
 `;
+
+export default ScrollToTop;

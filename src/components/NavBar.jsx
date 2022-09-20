@@ -30,7 +30,7 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+
 
 const Nav = styled.nav`
   display: flex;
@@ -84,3 +84,5 @@ const Nav = styled.nav`
     height: 130px;
   }
 `;
+
+export default NavBar;

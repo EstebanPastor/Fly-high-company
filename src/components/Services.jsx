@@ -50,8 +50,6 @@ const Services = () => {
   );
 };
 
-export default Services;
-
 const Section = styled.section`
   padding: 5rem 0;
   display: grid;
@@ -76,3 +74,5 @@ const Section = styled.section`
     }
   }
 `;
+
+export default Services;

@@ -42,7 +42,7 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+
 
 const Section = styled.section`
   position: relative;
@@ -131,3 +131,5 @@ const Section = styled.section`
     }
   }
 `;
+
+export default Hero;
